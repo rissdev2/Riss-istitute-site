@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+
 html,
 body {
   padding: 0;
@@ -7,6 +10,10 @@ body {
 }
 
 a {
+  color: inherit;
+  text-decoration: none;
+}
+a:hover {
   color: inherit;
   text-decoration: none;
 }
@@ -24,3 +31,719 @@ a {
     background: black;
   }
 }
+.main-color{
+  color: #00A8FF !important;
+}
+.cntct-head{
+  align-items: center;
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #000000;
+background-color: #f5f5f5;
+}
+
+.cntct-head ul{
+  list-style: none;
+  padding: 0px;
+}
+.cntct-head img:hover{
+  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg) brightness(103%) contrast(103%);
+}
+.navbar{
+  padding-top: 1rem !important;
+  padding-bottom: 1rem !important;
+  background-color: #ffffff !important;
+}
+.nav-link{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000 !important;
+}
+.non-active {
+  color: #000000;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #000000 !important;
+}
+
+/* Specific styles for active links */
+.active {
+  color: #00A8FF !important;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  
+}
+.non-active:hover{
+  color: #00A8FF !important;
+}
+.navbar-light .navbar-nav .nav-link.active{
+  color: #00A8FF !important;
+}
+.navbar-expand-lg .navbar-nav .active {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+.navbar-expand-lg .navbar-nav .non-active {
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+}
+.nav-buttn{
+  border: 1px solid black;
+  font-family: 'Oswald';
+  color: black;
+  font-weight: 500;
+font-size: 18px;
+box-shadow: 10px 10px 0px #000000;
+  padding: 7px 32px;
+}
+.nav-buttn:hover{
+  border: 1px solid #00A8FF;
+  box-shadow: 10px 10px 0px #00A8FF;
+  color: #00A8FF ;
+}
+
+
+
+
+/****** Hero Section Css Start  ******/
+.hero-sec{
+  align-items: center;
+}
+.hero-txt h1{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 76px;
+color: #000000;
+}
+.hero-txt p{
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  color: #000000;
+}
+.hero-buttn{
+  border: 1px solid black;
+  font-family: 'Oswald';
+  color: black;
+  font-weight: 500;
+font-size: 18px;
+box-shadow: -10px 10px 0px #000000;
+  padding: 7px 32px;
+}
+.hero-buttn:hover{
+  border: 1px solid #00A8FF;
+  box-shadow: -10px 10px 0px #00A8FF;
+  color: #00A8FF ;
+}
+
+
+/****** Hero Section Css End  ******/
+/****** Question Section Css Start  ******/
+
+.qut-txt h1{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 76px;
+line-height: 100px;
+color: #000000;
+}
+.qut-txt h3{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 43px;
+  color: #000000;
+}
+.qut-txt p{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 38px;
+color: #000000;
+}
+/****** Question Section Css End  ******/
+/****** Course Section Css Start  ******/
+.crs-txt h1{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 76px;
+line-height: 100px;
+text-align: center;
+color: #000000;
+}
+.crs-txt h2{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 18px;
+text-align: center;
+color: #000000;
+}
+.picture2 {
+  display: none;
+}
+.thumbnail:hover .picture1{
+ 
+ display: none;
+}
+.thumbnail:hover .picture2 {
+
+  display: block;
+  
+}
+.crs-buttn{
+  border: 1px solid black;
+  font-family: 'Oswald';
+  color: black;
+  font-weight: 500;
+font-size: 18px;
+box-shadow: -10px 10px 0px #000000;
+  padding: 7px 32px;
+  position: relative;
+  bottom: 100px;
+  left: 30%;
+}
+.crs-buttn:hover{
+  border: 1px solid #00A8FF;
+  box-shadow: -10px 10px 0px #00A8FF;
+  color: #00A8FF ;
+}
+/****** Course Section Css End  ******/
+/****** Question For You Section Css Start  ******/
+.fot-txt h3{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 70px;
+text-transform: uppercase;
+color: #000000;
+opacity: 0.2;
+}
+.fot-txt h2{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 70px;
+line-height: 70px;
+text-transform: uppercase;
+color: #000000;
+opacity: 0.4;
+}
+.fot-txt h1{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 70px;
+line-height: 70px;
+text-transform: uppercase;
+color: #000000;
+opacity: 0.8;
+}
+
+
+/****** Question For You Section Css End  ******/
+/****** Working Section Css Start  ******/
+.work-txt h1{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 56px;
+line-height: 76px;
+color: #000000;
+}
+.crd-txt{
+  padding: 30px 20px;
+  border: 1px solid #000000;
+}
+.crd-txt h1{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 46px;
+line-height: 46px;
+color: #000000;
+}
+.crd-txt p{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 34px;
+color: #000000;
+}
+.crd-txt ul li{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 21px;
+color: #000000;
+}
+.crd-txt ul{
+  list-style: none;
+  padding: 0px;
+}
+.crd-txt img:hover{
+  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg) brightness(103%) contrast(103%);
+}
+/****** Working Section Css End  ******/
+/****** Testemonial Section Css Start  ******/
+.test-txt h1{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 56px;
+line-height: 76px;
+color: #000000;
+}
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.swiper-button-next {
+  background-image: url(../public/assets/img/right.svg) !important;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+  
+}
+
+.swiper-button-next::after {
+  display: none;
+}
+
+.swiper-button-prev {
+  background-image: url(../public/assets/img/left.svg) !important;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: center;
+}
+
+.swiper-button-prev::after {
+  display: none;
+}
+:root {
+  --swiper-navigation-size: 150px !important;
+}
+.test-crd{
+  background-image: url(../public/assets/img/test-crd.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 90px 180px;
+}
+.test-crd img{
+    padding: 30px 0px;
+}
+.test-crd p{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+/* or 188% */
+color: #000000;
+}
+.test-crd h3{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 26px;
+color: #000000;
+}
+.test-crd h4{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 12px;
+color: #000000;
+}
+/****** Testemonial Section Css End  ******/
+/****** Motivation Section Css Start  ******/
+@font-face {
+  font-family:Rusty;
+  src: url(../public/assets/fonts/RustySign-AGZp.ttf);
+}
+.mtv-txt h2{
+  font-family: Rusty;
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 70px;
+color: #000000;
+}
+/****** Motivation Section Css End  ******/
+/****** Fotter Section Css Start  ******/
+.fot-txt{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+  list-style: none;
+}
+.fot-txt p{
+  margin: 0px;
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+}
+.sub-fot{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #000000;
+}
+.foter-icons ul{
+  list-style: none;
+  padding: 0px;
+}
+.foter-icons img:hover{
+  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg) brightness(103%) contrast(103%);
+}
+.sub-fot li{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 27px;
+color: #000000;
+}
+.non-active1 {
+  color: #000000;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  color: #000000 !important;
+}
+
+/* Specific styles for active links */
+.active1 {
+  color: #00A8FF !important;
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  
+}
+.non-active1:hover{
+  color: #00A8FF !important;
+}
+.fot-links{
+  border: 2px solid #000000;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}
+.fot-links ul{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 40px;
+  list-style: none;
+  
+}
+.fot-links p{
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+/****** Fotter Section Css End  ******/
+/****** About hero Section Css Start  ******/
+.abt-ht{
+  align-items: center;
+}
+.abt-ht h1{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 400;
+font-size: 120px;
+line-height: 178px;
+text-transform: uppercase;
+color: #000000;
+}
+.abt-ht p{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 36px;
+color: #000000;
+
+}
+.abt-ht img:hover{
+  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg) brightness(103%) contrast(103%);
+}
+
+/****** About hero Section Css End  ******/
+/****** About Goal Section Css Start  ******/
+.goal-sec{
+  align-items: center;
+}
+.goal-sec h1{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 250px;
+line-height: 250px;
+text-transform: uppercase;
+color: #00000000;
+-webkit-text-stroke-width: 2px;
+-webkit-text-stroke-color: black;
+}
+.goal-sec h1:hover{
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: #00A8FF;
+}
+.goal-sec p{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 35px;
+text-transform: uppercase;
+color: #000000;
+
+}
+.goal-sec img:hover{
+  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg) brightness(103%) contrast(103%);
+}
+.goal-sec h2{
+  
+font-family: Rusty;
+font-style: normal;
+font-weight: 400;
+font-size: 70px;
+line-height: 70px;
+text-align: center;
+color: #000000;
+}
+/****** About Goal Section Css End  ******/
+/****** Graphics Section Css Start  ******/
+.gr-sec{
+  align-items: center;
+}
+.gr-sec h1{
+  
+font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 76px;
+line-height: 100px;
+color: #000000;
+margin-bottom: 20px;
+}
+.gr-sec h3{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 20px;
+  text-transform: uppercase;  
+  color: #000000;
+  
+}
+.gr-sec p{
+
+  font-family: 'Hind Vadodara';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.gr-sec ul li{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 36px;
+color: #000000;
+}
+.crd-dat{
+  padding: 30px 30px;
+  background: #F5F5F5;
+border: 2px solid #000000;
+box-shadow: -10px 10px 0px #000000;
+}
+.crd-dat:hover{
+  border: 2px solid #00A8FF;
+box-shadow: -10px 10px 0px #00A8FF;
+}
+.crd-dat h2{
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  text-transform: uppercase;
+  color: #000000;
+  
+}
+.crd-dat p{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+margin: 0px;
+}
+.crd-dat h5{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+margin: 0px;
+}
+.crd-dat h1{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 39px;
+text-transform: uppercase;
+color: #000000;
+}
+.crd-form input{
+  width: 100%;
+  border: none;
+  outline: none;
+border-radius: 0px;
+padding: 10px;
+font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+color: rgba(0, 0, 0, 0.5);
+margin-bottom: 20px;
+}
+.crd-form textarea{
+  width: 100%;
+  border: none;
+  outline: none;
+border-radius: 0px;
+padding: 10px;
+font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 13px;
+color: rgba(0, 0, 0, 0.5);
+
+}
+/****** Graphics Section Css End  ******/
+/****** Fee Structure Section Css Start  ******/
+.fee-sec h1{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 600;
+font-size: 90px;
+line-height: 90px;
+color: #000000;
+}
+.fee-sec p{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 38px;
+color: #000000;
+}
+.fee-tbl tr th{
+    border: 1px solid #000000;
+    padding: 20px 128px 15px 10px;
+   font-family: 'Oswald';
+font-style: normal;
+font-weight: 600;
+font-size: 26px;
+line-height: 26px;
+color: #000000;
+}
+.fee-tbl tr td{
+  border: 1px solid #000000;
+  padding: 20px 10px;
+ font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 20px;
+color: #000000;
+}
+/****** Fee Structure Section Css End  ******/
+/****** Contact Us Section Css Start  ******/
+.cntct-sec h1{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 56px;
+line-height: 85px;
+color: #000000;
+}
+.cntct-sec p{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 38px;
+color: #000000;
+}
+/****** Contact Us Section Css End  ******/

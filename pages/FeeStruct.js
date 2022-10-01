@@ -1,17 +1,13 @@
 import Head from "next/head";
 import CntctHead from "../Components/CntctHead.jsx";
-import Courses from "../Components/Courses.jsx";
 
 import Header from "../Components/Header.jsx";
-import Hero from "../Components/Hero.jsx";
-import Question from "../Components/Question.jsx";
-import QuestionForYou from "../Components/QuestionForYou.jsx";
-import Working from "../Components/Working.jsx";
-import Testemonial from "../Components/Testemonial";
-import Motivation from "../Components/Motivation.jsx";
+import FeeStructer from "../Components/FeeStructer";
+
 import Footer from "../Components/Footer.jsx";
 
-export default function Home() {
+
+export default function FeeStruct() {
   return (
     <>
       <Head>
@@ -32,26 +28,16 @@ export default function Home() {
           integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
           crossorigin="anonymous"
         ></script>
-        <script src="//code.tidio.co/qazxp2xozlaqvxetprfduy9zxjw5zl6o.js" async></script>
       </Head>
       <CntctHead />
       <Header />
-      <Hero />
-      <div id="quest"><Question /></div>
       <br />
+      <br />
+      <br />
+    <FeeStructer />
     <br />
     <br />
     <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-      <Courses />
-      <QuestionForYou />
-      <Working />
-      <Testemonial />
-      <Motivation />
       <Footer />
     </>
   );
