@@ -11,9 +11,9 @@ export default function Hero() {
               <span className="main-color">money online?</span>
             </h1>
             <p>
-              Today, a lot of people are looking for how to make money <br />
+              Today, a lot of people are looking for how to make money <br className="br-hide" />
               online. But, unfortunately, <b> it is not easy to earn online</b>
-              <br /> without having any IT skill.
+              <br className="br-hide" /> without having any IT skill.
             </p>
             <div className="mt-lg-5">
               <a href="#quest" className="hero-buttn">
@@ -24,17 +24,17 @@ export default function Hero() {
           <div className="col-md-6">
           <div className="thumbnail">
             
-            <div class="picture1">
+            <div className="picture1">
               <img
-                class="img-fluid"
+                className="img-fluid"
                 src="assets/img/hero-p.png"
                 alt="..."
               />
              
             </div>
-            <div class="picture2">
+            <div className="picture2">
               <img
-                class="img-fluid"
+                className="img-fluid"
                 src="assets/img/hero.png"
                 alt=""
               />

@@ -7,20 +7,29 @@ export default function Footer() {
     const currentRoute = router.pathname;
   return (
     <>
+    <section className='bg-white'>
     <div className="container">
         <div className="row  mt-5">
             <div className="col-md-1"></div>
             <div className="col-md-5 foter-txt mt-5">
+              
                 <img src="assets/img/fotter-logo.svg" className='img-fluid mb-4' alt="" />
             <div className=' fot-txt foter-icons mt-3'>
+            <div className='d-flex gap-2'>
                 <img src="assets/img/f-mbl.svg" className='img-fluid' alt="" />
                 <p>(056-3678338, +92 3471663003)</p>
+                </div>
+                <div className='d-flex gap-2'>
                 <img src="assets/img/f-mail.svg" className='img-fluid' alt="" />
                 <p>info@theriss.net</p>
+                </div>
             </div>
             <div className='fot-txt foter-icons mt-3'>
+            <div className='d-flex gap-2'>
+
                 <img src="assets/img/location.svg" className='img-fluid' alt="" />
                 <p>Farooq Town Street 1/2 , Ghang road, Sheikhupra</p>
+</div>
             </div>
             <h3 className='sub-fot mt-4 mb-4'>Social profiles</h3>
             <div className='foter-icons'>
@@ -32,26 +41,77 @@ export default function Footer() {
             </ul>
             </div>
             </div>
-            <div className="col-md-2 mt-5">
+            <div className="col-md-2 crs-links mt-3 mt-md-5">
                 <h3 className='sub-fot mb-4'>Trainings we offer</h3>
-                <p>Basic computing</p>
-                <p>Virtual assistant</p>
-                <p>CMS</p>
-                <p>Graphic designing</p>
-                <p>Web development</p>
+                <Link href="/Course1">
+              <a  >
+              Basic computing
+              </a>
+              </Link>
+              <Link href="/Course2">
+              <a  >
+           Virtual assistant
+              </a>
+              </Link>
+              <Link href="/Course3">
+              <a  >
+              <p>CMS</p>
+              </a>
+              </Link>
+              <Link href="/Course4">
+              <a  >
+            Graphic designing
+              </a>
+              </Link>
+              <Link href="/Course5">
+              <a  >
+           Web development
+              </a>
+              </Link>
+
+
+
+
+                
+              
+                
+               
+                
                 
             </div>
 
             <div className="col-md-1"></div>
            
-            <div className="col-md-2 mt-5">
-            <br />
-            <br />
-              
-            <p>Freelancing</p>
-                <p>Digital marketing</p>
-                <p>Desktop app development</p>
-                <p>Android app development</p>
+            <div className="col-md-2 crs-links mt-0 mt-md-5">
+            <br className="br-hide" />
+            <br className="br-hide" />
+            <Link href="/Course6">
+              <a  >
+            Freelancing
+              </a>
+              </Link>
+              <Link href="/Course7">
+              <a  >
+            Digital marketing
+              </a>
+              </Link>
+              <Link href="/Course9">
+              <a  >
+              Desktop app development
+              </a>
+              </Link>
+              <Link href="/Course8">
+              <a  >
+              Android app development
+              </a>
+              </Link>
+
+
+
+           
+               
+                
+                
             </div>
             <div className="col-md-1"></div>
         </div>
@@ -95,7 +155,7 @@ export default function Footer() {
             <div className="col-md-1"></div>
         </div>
     </div>
-    
+    </section>
     </>
   )
 }

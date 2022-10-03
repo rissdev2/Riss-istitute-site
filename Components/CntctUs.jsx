@@ -12,7 +12,7 @@ export default function CntctUs() {
                 <p>We would love to hear from also feel free to suggest to us anything you like we are very open to them or if you have any queries regarding any of the RISS Training we would love to answer them.</p>
             </div>
             <div className="col-md-1"></div>
-            <div className="col-md-4">
+            <div className="col-md-4 mt-5 mt-lg-0">
                 <PgForm />
             </div>
             <div className="col-md-1"></div>

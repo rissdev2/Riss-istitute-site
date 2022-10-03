@@ -15,8 +15,8 @@ export default function CntctHead() {
               info@riss.net 
           </div>
           <div className="col-md-4"></div>
-          <div className="col-md-2">
-            <ul className="d-flex mt-2">
+          <div className="col-md-2 d-none d-md-block">
+            <ul className="d-flex justify-content-end mt-2">
                 <li><img src="assets/img/facebook.svg" className="img-fluid me-2" alt="" /></li>
                 <li><img src="assets/img/insta.svg" className="img-fluid me-2" alt="" /></li>
                 <li><img src="assets/img/twitter.svg" className="img-fluid me-2" alt="" /></li>

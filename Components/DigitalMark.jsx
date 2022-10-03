@@ -42,12 +42,12 @@ export default function DigitalMark() {
             <div className="crd-dat">
               <h2>Course fee</h2>
               <div className="row">
-                <div className="col-md-6">
+                <div className="col-6">
                   <p>Seat Reservation</p>
                   <p>Monthly fee</p>
                   <h5>Total fee</h5>
                 </div>
-                <div className="col-md-6 text-end">
+                <div className="col-6 text-end">
                   <h5>5,000</h5>
                   <h5>7,000</h5>
                   <h5>26,000</h5>

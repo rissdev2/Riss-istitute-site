@@ -12,7 +12,7 @@ export default function Courses() {
               The trainings <span className="main-color">we offer</span>
             </h1>
             <h2 className="mt-3 mb-5">Our tailored courses are designed in a way so can easily understand and acquire digital money-making skills.</h2>
-            <br />
+            <br className="br-hide" />
           </div>
         </div>
         <div className="row ">

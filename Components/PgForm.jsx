@@ -10,7 +10,7 @@ export default function PgForm() {
                 <input type="text" placeholder="Email" required />
                 <input type="email" placeholder="Phone number" required />
                 <textarea name="" id="" cols="45" placeholder="Ask your question" rows="10" required></textarea>
-                <div className="mt-lg-3 ms-3">
+                <div className="mt-md-3 ms-3">
               <a href="" className="hero-buttn">
                 Send
               </a>
