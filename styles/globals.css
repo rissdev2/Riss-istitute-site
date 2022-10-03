@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Hind+Vadodara:wght@300;400;500;600;700&family=Oswald:wght@200;300;400;500;600;700&display=swap");
 
 html,
 body {
@@ -7,6 +6,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-image: url(../public/assets/img/BG.svg);
 }
 
 a {
@@ -31,33 +31,34 @@ a:hover {
     background: black;
   }
 }
-.main-color{
-  color: #00A8FF !important;
+.main-color {
+  color: #00a8ff !important;
 }
-.cntct-head{
+.cntct-head {
   align-items: center;
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-color: #000000;
-background-color: #f5f5f5;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #000000;
+  background-color: #f5f5f5;
 }
 
-.cntct-head ul{
+.cntct-head ul {
   list-style: none;
   padding: 0px;
 }
-.cntct-head img:hover{
-  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg) brightness(103%) contrast(103%);
+.cntct-head img:hover {
+  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg)
+    brightness(103%) contrast(103%);
 }
-.navbar{
+.navbar {
   padding-top: 1rem !important;
   padding-bottom: 1rem !important;
   background-color: #ffffff !important;
 }
-.nav-link{
-  font-family: 'Oswald';
+.nav-link {
+  font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -65,7 +66,7 @@ background-color: #f5f5f5;
 }
 .non-active {
   color: #000000;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -74,18 +75,17 @@ background-color: #f5f5f5;
 
 /* Specific styles for active links */
 .active {
-  color: #00A8FF !important;
-  font-family: 'Oswald';
+  color: #00a8ff !important;
+  font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  
 }
-.non-active:hover{
-  color: #00A8FF !important;
+.non-active:hover {
+  color: #00a8ff !important;
 }
-.navbar-light .navbar-nav .nav-link.active{
-  color: #00A8FF !important;
+.navbar-light .navbar-nav .nav-link.active {
+  color: #00a8ff !important;
 }
 .navbar-expand-lg .navbar-nav .active {
   padding-right: 1.5rem !important;
@@ -95,260 +95,339 @@ background-color: #f5f5f5;
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important;
 }
-.nav-buttn{
+.nav-buttn {
   border: 1px solid black;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   color: black;
   font-weight: 500;
-font-size: 18px;
-box-shadow: 10px 10px 0px #000000;
+  font-size: 18px;
+  box-shadow: 10px 10px 0px #000000;
   padding: 7px 32px;
 }
-.nav-buttn:hover{
-  border: 1px solid #00A8FF;
-  box-shadow: 10px 10px 0px #00A8FF;
-  color: #00A8FF ;
+.nav-buttn:hover {
+  border: 1px solid #00a8ff;
+  box-shadow: 10px 10px 0px #00a8ff;
+  color: #00a8ff;
 }
-
-
-
 
 /****** Hero Section Css Start  ******/
-.hero-sec{
+.hero-sec {
   align-items: center;
 }
-.hero-txt h1{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 700;
-font-size: 76px;
-color: #000000;
+.hero-txt h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 76px;
+  color: #000000;
 }
-.hero-txt p{
-  font-family: 'Hind Vadodara';
+.hero-txt p {
+  font-family: "Hind Vadodara";
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   color: #000000;
 }
-.hero-buttn{
+.hero-buttn {
   border: 1px solid black;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   color: black;
   font-weight: 500;
-font-size: 18px;
-box-shadow: -10px 10px 0px #000000;
+  font-size: 18px;
+  box-shadow: -10px 10px 0px #000000;
   padding: 7px 32px;
 }
-.hero-buttn:hover{
-  border: 1px solid #00A8FF;
-  box-shadow: -10px 10px 0px #00A8FF;
-  color: #00A8FF ;
+.hero-buttn:hover {
+  border: 1px solid #00a8ff;
+  box-shadow: -10px 10px 0px #00a8ff;
+  color: #00a8ff;
 }
-
 
 /****** Hero Section Css End  ******/
 /****** Question Section Css Start  ******/
 
-.qut-txt h1{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 700;
-font-size: 76px;
-line-height: 100px;
-color: #000000;
+.qut-txt h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 100px;
+  color: #000000;
 }
-.qut-txt h3{
-  font-family: 'Oswald';
+.qut-txt h3 {
+  font-family: "Oswald";
   font-style: normal;
   font-weight: 600;
   font-size: 26px;
   line-height: 43px;
   color: #000000;
 }
-.qut-txt p{
-  font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 38px;
-color: #000000;
+.qut-txt p {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 38px;
+  color: #000000;
 }
 /****** Question Section Css End  ******/
 /****** Course Section Css Start  ******/
-.crs-txt h1{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 700;
-font-size: 76px;
-line-height: 100px;
-text-align: center;
-color: #000000;
+.crs-txt h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 100px;
+  text-align: center;
+  color: #000000;
 }
-.crs-txt h2{
-  font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 18px;
-text-align: center;
-color: #000000;
+.crs-txt h2 {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #000000;
 }
 .picture2 {
   display: none;
 }
-.thumbnail:hover .picture1{
- 
- display: none;
+.thumbnail:hover .picture1 {
+  display: none;
 }
 .thumbnail:hover .picture2 {
-
   display: block;
-  
 }
-.crs-buttn{
+.crs-buttn {
   border: 1px solid black;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   color: black;
   font-weight: 500;
-font-size: 18px;
-box-shadow: -10px 10px 0px #000000;
+  font-size: 18px;
+  box-shadow: -10px 10px 0px #000000;
   padding: 7px 32px;
   position: relative;
   bottom: 100px;
   left: 30%;
 }
-.crs-buttn:hover{
-  border: 1px solid #00A8FF;
-  box-shadow: -10px 10px 0px #00A8FF;
-  color: #00A8FF ;
+.crs-buttn:hover {
+  border: 1px solid #00a8ff;
+  box-shadow: -10px 10px 0px #00a8ff;
+  color: #00a8ff;
 }
 /****** Course Section Css End  ******/
 /****** Question For You Section Css Start  ******/
-.fot-txt h3{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 400;
-font-size: 70px;
-line-height: 70px;
-text-transform: uppercase;
-color: #000000;
-opacity: 0.2;
-}
-.fot-txt h2{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 500;
-font-size: 70px;
-line-height: 70px;
-text-transform: uppercase;
-color: #000000;
-opacity: 0.4;
-}
-.fot-txt h1{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 700;
-font-size: 70px;
-line-height: 70px;
-text-transform: uppercase;
-color: #000000;
-opacity: 0.8;
-}
 
+.fot-txt h3 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.2;
+}
+.fot-txt h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.4;
+}
+.fot-txt h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 70px;
+  text-transform: uppercase;
+  color: #000000;
+  opacity: 0.8;
+}
+.for-sec {
+  align-items: center;
+}
+.for-sec h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 64px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.for-sec h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 44px;
+  line-height: 64px;
+  color: #000000;
+}
 
 /****** Question For You Section Css End  ******/
 /****** Working Section Css Start  ******/
-.work-txt h1{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 400;
-font-size: 56px;
-line-height: 76px;
-color: #000000;
+.work-txt h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 76px;
+  color: #000000;
 }
-.crd-txt{
+.crd-txt {
   padding: 30px 20px;
   border: 1px solid #000000;
 }
-.crd-txt h1{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 500;
-font-size: 46px;
-line-height: 46px;
-color: #000000;
+.crd-txt h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 46px;
+  color: #000000;
 }
-.crd-txt p{
-  font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 34px;
-color: #000000;
+.crd-txt p {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 34px;
+  color: #000000;
 }
-.crd-txt ul li{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 21px;
-color: #000000;
+.crd-txt ul li {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
 }
-.crd-txt ul{
+.crd-txt ul {
   list-style: none;
   padding: 0px;
 }
-.crd-txt img:hover{
-  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg) brightness(103%) contrast(103%);
+.crd-txt img:hover {
+  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg)
+    brightness(103%) contrast(103%);
 }
 /****** Working Section Css End  ******/
 /****** Testemonial Section Css Start  ******/
-.test-txt h1{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 700;
-font-size: 56px;
-line-height: 76px;
-color: #000000;
+.test-txt h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 76px;
+  color: #000000;
 }
+
 .swiper {
-  width: 100%;
-  height: 100%;
+  padding: 1.5em !important;
+  height: 500px !important;
+  margin-top: 70px;
 }
-
-.swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-
-  /* Center slide text vertically */
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-box-pack: center;
-  -ms-flex-pack: center;
-  -webkit-justify-content: center;
-  justify-content: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  -webkit-align-items: center;
+.swiper .content-wrapper {
+  position: relative;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  grid-template-areas: ".";
+  width: 100%;
+  justify-items: center;
   align-items: center;
 }
-
-.swiper-slide img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+.swiper .content-wrapper .content {
+  padding: 3em 1.5em;
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  margin: 0 auto;
+  color: #000;
 }
+.swiper .content-wrapper .content :first-child {
+  margin: 0;
+}
+.swiper .content-wrapper .content .swiper-avatar {
+  width: 100%;
+  max-width: 125px;
+  height: auto;
+}
+.swiper .content-wrapper .content .swiper-avatar img {
+  /* border-radius: 500px; */
+}
+.swiper .content-wrapper .content p {
+  margin-top: 20px;
+  font-family: "Hind Vadodara";
+  font-size: 16px;
+  line-height: 24px;
+}
+.swiper .content-wrapper .content .cite {
+  font-size: 14px;
+  font-weight: bold;
+}
+.swiper .swiper-slide {
+  margin: 0;
+  height: auto;
+  width: 100%;
+  padding: 0;
+  opacity: 0.2;
+  background: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s ease-in-out;
+}
+.swiper .swiper-slide.swiper-slide-active {
+  background: white;
+  opacity: 1;
+  transform: scale(1.1);
+  border: 2px solid #000000;
+  box-shadow: -10px 10px 0px #000000;
+}
+.swiper .swiper-nav-wrapper {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: auto;
+  padding-top: 3em;
+}
+.swiper .swiper-nav-wrapper .swiper-button-next,
+.swiper .swiper-nav-wrapper .swiper-button-prev {
+  top: 0;
+  top: auto;
+  left: auto;
+  right: auto;
+  position: relative !important;
+}
+.swiper .swiper-nav-wrapper .swiper-button-next:after,
+.swiper .swiper-nav-wrapper .swiper-button-prev:after {
+  display: none;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  top: 0;
+  bottom: 0;
+  width: auto;
+  padding: 0 1.5em;
+}
+
 .swiper-button-next {
   background-image: url(../public/assets/img/right.svg) !important;
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
-  
 }
 
 .swiper-button-next::after {
@@ -368,57 +447,23 @@ color: #000000;
 :root {
   --swiper-navigation-size: 150px !important;
 }
-.test-crd{
-  background-image: url(../public/assets/img/test-crd.svg);
-  background-repeat: no-repeat;
-  background-position: center;
-  padding: 90px 180px;
-}
-.test-crd img{
-    padding: 30px 0px;
-}
-.test-crd p{
-  font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 30px;
-/* or 188% */
-color: #000000;
-}
-.test-crd h3{
-  font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 26px;
-color: #000000;
-}
-.test-crd h4{
-  font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 400;
-font-size: 12px;
-line-height: 12px;
-color: #000000;
-}
 /****** Testemonial Section Css End  ******/
 /****** Motivation Section Css Start  ******/
 @font-face {
-  font-family:Rusty;
+  font-family: Rusty;
   src: url(../public/assets/fonts/RustySign-AGZp.ttf);
 }
-.mtv-txt h2{
+.mtv-txt h2 {
   font-family: Rusty;
-font-style: normal;
-font-weight: 400;
-font-size: 70px;
-line-height: 70px;
-color: #000000;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 70px;
+  color: #000000;
 }
 /****** Motivation Section Css End  ******/
 /****** Fotter Section Css Start  ******/
-.fot-txt{
+.fot-txt {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -426,41 +471,42 @@ color: #000000;
   gap: 10px;
   list-style: none;
 }
-.fot-txt p{
+.fot-txt p {
   margin: 0px;
-  font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #000000;
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-hhteig: 24px;
+  color: #000000;
 }
-.sub-fot{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 27px;
-color: #000000;
+.sub-fot {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
 }
-.foter-icons ul{
+.foter-icons ul {
   list-style: none;
   padding: 0px;
 }
-.foter-icons img:hover{
-  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg) brightness(103%) contrast(103%);
+.foter-icons img:hover {
+  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg)
+    brightness(103%) contrast(103%);
 }
-.sub-fot li{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 600;
-font-size: 18px;
-line-height: 27px;
-color: #000000;
+.sub-fot li {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
 }
 .non-active1 {
   color: #000000;
-  font-family: 'Oswald';
+  font-family: "Oswald";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -469,137 +515,153 @@ color: #000000;
 
 /* Specific styles for active links */
 .active1 {
-  color: #00A8FF !important;
-  font-family: 'Oswald';
+  color: #00a8ff !important;
+  font-family: "Oswald";
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
-  
 }
-.non-active1:hover{
-  color: #00A8FF !important;
+.non-active1:hover {
+  color: #00a8ff !important;
 }
-.fot-links{
+.fot-links {
   border: 2px solid #000000;
   border-bottom: 0px;
   border-left: 0px;
   border-right: 0px;
 }
-.fot-links ul{
+.fot-links ul {
   display: flex;
   flex-direction: row;
   align-items: center;
   padding: 0px;
   gap: 40px;
   list-style: none;
-  
 }
-.fot-links p{
-  font-family: 'Hind Vadodara';
+.fot-links p {
+  font-family: "Hind Vadodara";
   font-style: normal;
   font-weight: 300;
   font-size: 14px;
   line-height: 24px;
   color: #000000;
 }
+.crs-links p {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.crs-links p:hover {
+  color: #00a8ff;
+}
+.crs-links a {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+}
+.crs-links a:hover {
+  color: #00a8ff;
+}
 /****** Fotter Section Css End  ******/
 /****** About hero Section Css Start  ******/
-.abt-ht{
+.abt-ht {
   align-items: center;
 }
-.abt-ht h1{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 400;
-font-size: 120px;
-line-height: 178px;
-text-transform: uppercase;
-color: #000000;
+.abt-ht h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 120px;
+  line-height: 178px;
+  text-transform: uppercase;
+  color: #000000;
 }
-.abt-ht p{
-  font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 36px;
-color: #000000;
-
+.abt-ht p {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #000000;
 }
-.abt-ht img:hover{
-  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg) brightness(103%) contrast(103%);
+.abt-ht img:hover {
+  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg)
+    brightness(103%) contrast(103%);
 }
 
 /****** About hero Section Css End  ******/
 /****** About Goal Section Css Start  ******/
-.goal-sec{
+.goal-sec {
   align-items: center;
 }
-.goal-sec h1{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 700;
-font-size: 250px;
-line-height: 250px;
-text-transform: uppercase;
-color: #00000000;
--webkit-text-stroke-width: 2px;
--webkit-text-stroke-color: black;
+.goal-sec h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 250px;
+  line-height: 250px;
+  text-transform: uppercase;
+  color: #00000000;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: black;
 }
-.goal-sec h1:hover{
+.goal-sec h1:hover {
   -webkit-text-stroke-width: 4px;
-  -webkit-text-stroke-color: #00A8FF;
+  -webkit-text-stroke-color: #00a8ff;
 }
-.goal-sec p{
-  font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 35px;
-text-transform: uppercase;
-color: #000000;
-
+.goal-sec p {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 35px;
+  text-transform: uppercase;
+  color: #000000;
 }
-.goal-sec img:hover{
-  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg) brightness(103%) contrast(103%);
+.goal-sec img:hover {
+  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg)
+    brightness(103%) contrast(103%);
 }
-.goal-sec h2{
-  
-font-family: Rusty;
-font-style: normal;
-font-weight: 400;
-font-size: 70px;
-line-height: 70px;
-text-align: center;
-color: #000000;
+.goal-sec h2 {
+  font-family: Rusty;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 70px;
+  line-height: 70px;
+  text-align: center;
+  color: #000000;
 }
 /****** About Goal Section Css End  ******/
 /****** Graphics Section Css Start  ******/
-.gr-sec{
+.gr-sec {
   align-items: center;
 }
-.gr-sec h1{
-  
-font-family: 'Oswald';
-font-style: normal;
-font-weight: 700;
-font-size: 76px;
-line-height: 100px;
-color: #000000;
-margin-bottom: 20px;
+.gr-sec h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 76px;
+  line-height: 100px;
+  color: #000000;
+  margin-bottom: 20px;
 }
-.gr-sec h3{
-  font-family: 'Oswald';
+.gr-sec h3 {
+  font-family: "Oswald";
   font-style: normal;
   font-weight: 600;
   font-size: 20px;
   line-height: 20px;
-  text-transform: uppercase;  
+  text-transform: uppercase;
   color: #000000;
-  
 }
-.gr-sec p{
-
-  font-family: 'Hind Vadodara';
+.gr-sec p {
+  font-family: "Hind Vadodara";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
@@ -607,143 +669,403 @@ margin-bottom: 20px;
   color: #000000;
   margin-bottom: 30px;
 }
-.gr-sec ul li{
-  font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 36px;
-color: #000000;
+.gr-sec ul li {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 36px;
+  color: #000000;
 }
-.crd-dat{
+.crd-dat {
   padding: 30px 30px;
-  background: #F5F5F5;
-border: 2px solid #000000;
-box-shadow: -10px 10px 0px #000000;
+  background: #f5f5f5;
+  border: 2px solid #000000;
+  box-shadow: -10px 10px 0px #000000;
 }
-.crd-dat:hover{
-  border: 2px solid #00A8FF;
-box-shadow: -10px 10px 0px #00A8FF;
+.crd-dat:hover {
+  border: 2px solid #00a8ff;
+  box-shadow: -10px 10px 0px #00a8ff;
 }
-.crd-dat h2{
-  font-family: 'Oswald';
+.crd-dat h2 {
+  font-family: "Oswald";
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 27px;
   text-transform: uppercase;
   color: #000000;
-  
 }
-.crd-dat p{
-  font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 24px;
-color: #000000;
-margin: 0px;
+.crd-dat p {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0px;
 }
-.crd-dat h5{
-  font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 600;
-font-size: 16px;
-line-height: 24px;
-color: #000000;
-margin: 0px;
+.crd-dat h5 {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
+  margin: 0px;
 }
-.crd-dat h1{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 39px;
-text-transform: uppercase;
-color: #000000;
+.crd-dat h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 39px;
+  text-transform: uppercase;
+  color: #000000;
 }
-.crd-form input{
+.crd-form input {
   width: 100%;
   border: none;
   outline: none;
-border-radius: 0px;
-padding: 10px;
-font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 13px;
-color: rgba(0, 0, 0, 0.5);
-margin-bottom: 20px;
+  border-radius: 0px;
+  padding: 10px;
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
 }
-.crd-form textarea{
+.crd-form textarea {
   width: 100%;
   border: none;
   outline: none;
-border-radius: 0px;
-padding: 10px;
-font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 13px;
-color: rgba(0, 0, 0, 0.5);
-
+  border-radius: 0px;
+  padding: 10px;
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 13px;
+  color: rgba(0, 0, 0, 0.5);
 }
 /****** Graphics Section Css End  ******/
 /****** Fee Structure Section Css Start  ******/
-.fee-sec h1{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 600;
-font-size: 90px;
-line-height: 90px;
-color: #000000;
+.fee-sec h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 90px;
+  line-height: 90px;
+  color: #000000;
 }
-.fee-sec p{
-  font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 600;
-font-size: 20px;
-line-height: 38px;
-color: #000000;
+.fee-sec p {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 38px;
+  color: #000000;
 }
-.fee-tbl tr th{
-    border: 1px solid #000000;
-    padding: 20px 128px 15px 10px;
-   font-family: 'Oswald';
-font-style: normal;
-font-weight: 600;
-font-size: 26px;
-line-height: 26px;
-color: #000000;
+.fee-tbl tr th {
+  border: 1px solid #000000;
+  padding: 20px 128px 15px 10px;
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 26px;
+  color: #000000;
 }
-.fee-tbl tr td{
+.fee-tbl tr td {
   border: 1px solid #000000;
   padding: 20px 10px;
- font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 500;
-font-size: 20px;
-line-height: 20px;
-color: #000000;
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
 }
 /****** Fee Structure Section Css End  ******/
 /****** Contact Us Section Css Start  ******/
-.cntct-sec h1{
-  font-family: 'Oswald';
-font-style: normal;
-font-weight: 500;
-font-size: 56px;
-line-height: 85px;
-color: #000000;
+.cntct-sec h1 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 56px;
+  line-height: 85px;
+  color: #000000;
 }
-.cntct-sec p{
-  font-family: 'Hind Vadodara';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 38px;
-color: #000000;
+.cntct-sec p {
+  font-family: "Hind Vadodara";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 38px;
+  color: #000000;
 }
 /****** Contact Us Section Css End  ******/
+/******** Media Qurries Start  *******/
+@media (max-width: 767px) {
+  .br-hide {
+    display: none;
+  }
+  .hero-txt h1 {
+    font-size: 40px;
+    margin-top: 40px;
+  }
+  .hero-txt p {
+    font-size: 16px;
+    margin: 15px 0px 40px 0px;
+  }
+  .hero-buttn {
+    font-size: 16px;
+    margin-left: 10px;
+    margin-bottom: 30px !important;
+  }
+  .hero-sec img {
+    margin-top: 50px;
+  }
+  .qut-txt h1 {
+    font-size: 40px;
+    line-height: 56px;
+  }
+  .qut-txt h3 {
+    font-size: 20px;
+    line-height: 30px;
+    margin-top: 15px;
+  }
+  .qut-txt p {
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .crs-txt h1 {
+    font-size: 40px;
+    text-align: left;
+    line-height: 50px;
+    margin-top: 65px;
+  }
+  .crs-txt h2 {
+    font-size: 16px;
+    text-align: left;
+  }
+  .crs-buttn {
+    bottom: 95px;
+  }
+  .fot-txt h3 {
+    font-size: 28px;
+    line-height: 28px;
+    margin-top: 50px;
+  }
+  .fot-txt h2 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .fot-txt h1 {
+    font-size: 28px;
+    line-height: 28px;
+  }
+  .for-sec h1 {
+    font-size: 27px;
+    line-height: 34px;
+    margin-top: 15px;
+  }
+  .for-sec h2 {
+    font-size: 27px;
+    line-height: 34px;
+  }
+  .work-txt h1 {
+    font-size: 32px;
+    line-height: 42px;
+    margin-top: 50px;
+  }
+  .swiper {
+    height: 527px !important;
+  }
+  :root {
+    --swiper-navigation-size: 53px !important;
+  }
+  .mtv-txt h2 {
+    font-size: 40px;
+    line-height: 42px;
+    margin-top: 50px;
+  }
+  .abt-ht h1 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .abt-ht p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .goal-sec h1 {
+    font-size: 75px;
+    line-height: 85px;
+  }
+  .goal-sec p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .cntct-sec h1 {
+    font-size: 40px;
+    line-height: 55px;
+    margin-top: 80px;
+  }
+  .cntct-sec p {
+    font-size: 16px;
+    line-height: 29px;
+  }
+  .gr-sec h1 {
+    font-size: 50px;
+    line-height: 70px;
+  }
+
+  .gr-sec p {
+    font-size: 16px;
+    line-height: 29px;
+  }
+  .gr-sec ul li {
+    font-size: 16px;
+    line-height: 29px;
+  }
+  .crd-dat h1 {
+    font-size: 26px;
+  }
+  .fot-links ul {
+    gap: 20px;
+  }
+  .non-active1 {
+    font-size: 14px;
+  }
+  .active1 {
+    font-size: 14px;
+  }
+  .fot-txt {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .fee-tbl tr th{
+    padding: 20px 6px 15px 10px;
+    font-size: 12PX;
+    line-height: 12px;
+
+  }
+  .fee-tbl tr td{
+    font-size: 14PX;
+    padding: 10px 10px;
+    line-height: 14px;
+
+  }
+  .fee-sec h1{
+    font-size: 65px;
+    line-height: 75px;
+  }
+}
+@media (min-device-width: 768px) and (max-device-width: 1080px) {
+  .br-hide {
+    display: none;
+  }
+  .hero-txt h1 {
+    font-size: 54px;
+  }
+  .qut-txt h1 {
+    font-size: 45px;
+    line-height: 65px;
+    margin-top: 50px;
+  }
+  .crs-buttn {
+    padding: 7px 20px;
+    bottom: 58px;
+    font-size: 12px;
+  }
+  .fot-txt h3 {
+    font-size: 55px;
+    margin-top: 50px;
+  }
+  .fot-txt h2 {
+    font-size: 55px;
+  }
+  .fot-txt h1 {
+    font-size: 55px;
+  }
+  .crs-txt h1 {
+    margin-top: 50px;
+  }
+  .for-sec h2 {
+    font-size: 23px;
+    line-height: 34px;
+  }
+  .for-sec h1 {
+    font-size: 23px;
+    line-height: 34px;
+  }
+  .work-txt h1 {
+    font-size: 43px;
+    line-height: 67px;
+    margin-top: 50px;
+  }
+  .crd-txt h1 {
+    font-size: 26px;
+  }
+  .crd-txt p{
+    font-size: 14px;
+    line-height: 23px;
+  }
+  .test-txt h1{
+    margin-top: 50px;
+  }
+  .mtv-txt h2{
+    margin-top: 50px;
+  }
+  .fot-txt{
+    flex-direction: column;
+    align-items: start;
+  }
+  .sub-fot{
+    font-size: 13px;
+  }
+  .crs-links p{
+    font-size: 13px;
+    line-height: 18px;
+  }
+  .fee-tbl tr th {
+    padding: 20px 45px 15px 10px;
+    font-size: 14px;
+  }
+  .fee-tbl tr td{
+    font-size: 14px;
+  }
+  .abt-ht h1 {
+    font-size: 65px;
+    line-height: 90px;
+  }
+  .abt-ht p{
+    font-size: 14px;
+    line-height: 26px;
+  }
+  .goal-sec h1{
+    font-size: 135px;
+  }
+  .goal-sec p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .cntct-sec h1 {
+    font-size: 37px;
+    line-height: 51px;
+  }
+  .cntct-sec p {
+    font-size: 16px;
+    line-height: 26px;
+  }
+  .crd-dat h2 {
+    font-size: 15px;
+  }
+  .crd-dat h1 {
+    font-size: 20px;
+  }
+}
+/******** Media Qurries End  *******/

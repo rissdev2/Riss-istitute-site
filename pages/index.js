@@ -10,7 +10,7 @@ import Working from "../Components/Working.jsx";
 import Testemonial from "../Components/Testemonial";
 import Motivation from "../Components/Motivation.jsx";
 import Footer from "../Components/Footer.jsx";
-
+import Script from 'next/script'
 export default function Home() {
   return (
     <>
@@ -23,30 +23,30 @@ export default function Home() {
           crossorigin="anonymous"
         />
         <script
-          src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-          integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-          crossorigin="anonymous"
+          src="//code.tidio.co/qazxp2xozlaqvxetprfduy9zxjw5zl6o.js"
+          async
         ></script>
-        <script
-          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-          integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-          crossorigin="anonymous"
-        ></script>
-        <script src="//code.tidio.co/qazxp2xozlaqvxetprfduy9zxjw5zl6o.js" async></script>
       </Head>
+
+      <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" />
+      <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" />
+
+
       <CntctHead />
       <Header />
       <Hero />
-      <div id="quest"><Question /></div>
-      <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+      <div id="quest">
+        <Question />
+      </div>
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
+      <br className="br-hide" />
       <Courses />
       <QuestionForYou />
       <Working />

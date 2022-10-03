@@ -24,7 +24,7 @@ export default function VirtualAssistant() {
               <li>Learn how to market your services on social media.</li>
               <li>Learn a simple but powerful tool to pitch clients online.</li>
               <li>Learn about how to set your business up for success, includes the tools to get you started, tax entities, and insurance.</li>
-              <li>Learn about the most mistakes first time VA's make and how to avoid them.</li>
+              <li>Learn about the most mistakes first time VA s make and how to avoid them.</li>
               <li>Skills and tools you need to be a successful professional virtual assistant</li>
               <li>How to set your price and market yourself to your ideal clients/employers (find the best jobs)</li>
               <li>Email, chat, phone support and social media management tools and skills</li>
@@ -32,7 +32,7 @@ export default function VirtualAssistant() {
               <li>How to ace your interviews and get the best jobs</li>
               <li>How to manage your workload working from home and be your own boss</li>
               <li>Virtual assistant self care and work-life balance</li>
-              <li>Skip the "building" part of running a VA business and get to work! Use my pre-made spreadsheets and documents so you can work faster.</li>
+              <li>Skip the building part of running a VA business and get to work! Use my pre-made spreadsheets and documents so you can work faster.</li>
               </ul>
           </div>
           <div className="col-md-1"></div>
@@ -40,12 +40,12 @@ export default function VirtualAssistant() {
           <div className="crd-dat">
             <h2>Course fee</h2>
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-6">
                 <p>Seat Reservation</p>
                 <p>Monthly fee</p>
                 <h5>Total fee</h5>
               </div>
-              <div className="col-md-6 text-end">
+              <div className="col-6 text-end">
                 <h5>5,000</h5>
                 <h5>5,000</h5>
                 <h5>15,000</h5>

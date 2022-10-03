@@ -3,10 +3,10 @@ import React from 'react'
 export default function Working() {
   return (
     <>
-    <br />
-    <br />
-    <br />
-    <br />
+    <br className="br-hide" />
+    <br className="br-hide" />
+    <br className="br-hide" />
+    <br className="br-hide" />
     <div className="container mt-5">
         <div className="row work-txt">
             <div className="col-md-12 mb-5">

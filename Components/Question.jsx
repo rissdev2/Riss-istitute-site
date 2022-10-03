@@ -7,13 +7,13 @@ export default function Question() {
         <div className="row mt-5">
           <div className="col-md-6 qut-txt ">
             <div className="sticky-lg-top">
-              <br />
-              <br />
-              <br />
-              <br />
+              <br className="br-hide" />
+              <br className="br-hide" />
+              <br className="br-hide" />
+              <br className="br-hide" />
               
               <h1>
-                Don't worry we've{" "}
+                Don t worry we ve{" "}
                 <span className="main-color">got your back </span>{" "}
               </h1>
               <h3>Get started with 4 simple steps to unroll expert course</h3>
@@ -29,7 +29,7 @@ export default function Question() {
                   own resource utilizing those abilities.
                 </span>
               </p>
-              <div className="mt-lg-5">
+              <div className="mt-5">
                 <Link href="/Contct">
                    <a  className="hero-buttn">
                   Have question?
@@ -40,30 +40,30 @@ export default function Question() {
           </div>
           <div className="col-md-1"></div>
           <div className="col-md-5 ">
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <img src="assets/img/1.svg" className="img-fluid" alt="" />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <img src="assets/img/2.svg" className="img-fluid" alt="" />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <img src="assets/img/3.svg" className="img-fluid" alt="" />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <img src="assets/img/4.svg" className="img-fluid" alt="" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <img src="assets/img/1.svg" className="mt-5 mt-lg-0 img-fluid" alt="" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <img src="assets/img/2.svg" className="mt-5 mt-lg-0 img-fluid" alt="" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <img src="assets/img/3.svg" className="mt-5 mt-lg-0 img-fluid" alt="" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <br className="br-hide" />
+          <img src="assets/img/4.svg" className="mt-5 mt-lg-0 img-fluid" alt="" />
           </div>
         </div>
       </div>

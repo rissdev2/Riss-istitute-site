@@ -1,17 +1,17 @@
 import Head from 'next/head'
 import React from 'react'
-import BeforeAfter from './BeforeAfter'
+
 
 export default function QuestionForYou() {
   return (
     <>
    
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
-    <br />
+    <br className="br-hide" />
+    <br className="br-hide" />
+    <br className="br-hide" />
+    <br className="br-hide" />
+    <br className="br-hide" />
+    <br className="br-hide" />
     <div className="container">
         <div className="row fot-txt">
             <div className="col-md-12 text-start">
@@ -20,10 +20,15 @@ export default function QuestionForYou() {
                 <h1>We have a <span className='main-color'>Question for you</span></h1>
             </div>
         </div>
-        <div className="row mt-5">
-            <div className="col-md-12">
-            <iframe frameborder="0" class="juxtapose" width="100%" height="740" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=7199a636-40f2-11ed-b5bc-6595d9b17862"></iframe>
-            {/* <BeforeAfter /> */}
+        <br className="br-hide" />
+        <br className="br-hide" />
+        <div className="row mt-0 mt-lg-5 for-sec">
+            <div className="col-md-5">
+              <h1>If you had to choose between working in an office for 8 hours a day</h1>
+              <h2> Or working from anywhere in the world, which would you choose?</h2>
+            </div>
+            <div className="col-md-7">
+    <img src="assets/img/sl1.svg" className="mt-5 mt-lg-0 img-fluid" alt="" />
             </div>
         </div>
     </div>
