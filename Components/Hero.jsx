@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <>
       <div className="container">
-        <div className="row hero-sec">
+        <div className="row hero-sec mt-0 mt-lg-5">
           <div className="col-md-6 hero-txt">
             <h1>
               Is it really easy to earn{" "}

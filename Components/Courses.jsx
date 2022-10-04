@@ -302,7 +302,7 @@ export default function Courses() {
                   alt="..."
                 />
                 <div className="">
-                <Link href="/Course1">
+                <Link href="/Course9">
               <a  className="crs-buttn">
               More details
               </a>

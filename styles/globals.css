@@ -7,6 +7,10 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   background-image: url(../public/assets/img/BG.svg);
+  -webkit-background-img:url(../public/assets/img/BG.svg);
+  -moz-background-img: url(../public/assets/img/BG.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 a {
@@ -22,15 +26,7 @@ a:hover {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
+
 .main-color {
   color: #00a8ff !important;
 }
@@ -896,6 +892,7 @@ a:hover {
   .abt-ht h1 {
     font-size: 50px;
     line-height: 60px;
+    margin-top: 70px;
   }
   .abt-ht p {
     font-size: 15px;
@@ -904,10 +901,12 @@ a:hover {
   .goal-sec h1 {
     font-size: 75px;
     line-height: 85px;
+    margin-bottom: 50px;
   }
   .goal-sec p {
     font-size: 16px;
     line-height: 26px;
+    margin-top: 50px;
   }
   .cntct-sec h1 {
     font-size: 40px;

@@ -34,10 +34,10 @@ export default function Footer() {
             <h3 className='sub-fot mt-4 mb-4'>Social profiles</h3>
             <div className='foter-icons'>
             <ul className="d-flex mt-2">
-                <li><img src="assets/img/f-facebook.svg" className="img-fluid me-2" alt="" /></li>
-                <li><img src="assets/img/f-instagram.svg" className="img-fluid me-2" alt="" /></li>
-                <li><img src="assets/img/f-twitter.svg" className="img-fluid me-2" alt="" /></li>
-                <li><img src="assets/img/f-linkdin.svg" className="img-fluid " alt="" /></li>
+                <li><a href="https://www.facebook.com/rissgroup" target="blank"> <img src="assets/img/f-facebook.svg" className="img-fluid me-2" alt="" /></a></li>
+                <li><a href="https://www.instagram.com/rissgroup/?fbclid=IwAR1qVzwEavFoNm-5_pEgTSJMSRnFSMDSvzNHaNg-1DJsXISW71pyQd7g_os" target="blank"><img src="assets/img/f-instagram.svg" className="img-fluid me-2" alt="" /></a></li>
+                <li><a href="https://twitter.com/rissgroups?fbclid=IwAR2IiH49HjAvcCJ1OUR9-745-EG1-4w2ZT2vv_gEL2Zpe-M7Uz-0ZEs5u38" target="blank"><img src="assets/img/f-twitter.svg" className="img-fluid me-2" alt="" /></a></li>
+                <li><a href="https://www.linkedin.com/in/rissinstitute/" target="blank"><img src="assets/img/f-linkdin.svg" className="img-fluid " alt="" /></a></li>
             </ul>
             </div>
             </div>
@@ -45,12 +45,12 @@ export default function Footer() {
                 <h3 className='sub-fot mb-4'>Trainings we offer</h3>
                 <Link href="/Course1">
               <a  >
-              Basic computing
+             <p>Basic computing</p> 
               </a>
               </Link>
               <Link href="/Course2">
               <a  >
-           Virtual assistant
+          <p>Virtual assistant</p> 
               </a>
               </Link>
               <Link href="/Course3">
@@ -60,12 +60,12 @@ export default function Footer() {
               </Link>
               <Link href="/Course4">
               <a  >
-            Graphic designing
+             <p>Graphic designing</p>
               </a>
               </Link>
               <Link href="/Course5">
               <a  >
-           Web development
+            <p>Web development</p>
               </a>
               </Link>
 
@@ -87,22 +87,22 @@ export default function Footer() {
             <br className="br-hide" />
             <Link href="/Course6">
               <a  >
-            Freelancing
+         <p>Freelancing</p>  
               </a>
               </Link>
               <Link href="/Course7">
               <a  >
-            Digital marketing
+             <p>Digital marketing</p>
               </a>
               </Link>
               <Link href="/Course9">
               <a  >
-              Desktop app development
+               <p>Desktop app developmnet</p>
               </a>
               </Link>
               <Link href="/Course8">
               <a  >
-              Android app development
+              <p>Android app development </p>
               </a>
               </Link>
 
