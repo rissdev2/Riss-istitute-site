@@ -6,9 +6,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-image: url(../public/BG.svg);
-  -webkit-background-img:url(../public/BG.svg);
-  -moz-background-img: url(../public/BG.svg);
+  background-image: url(/BG.svg);
+  -webkit-background-img:url(/BG.svg);
+  -moz-background-img: url(/BG.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
