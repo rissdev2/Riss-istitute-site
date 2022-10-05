@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 export default function Goals() {
   return (
@@ -31,9 +32,11 @@ export default function Goals() {
             <div className="col-md-12 text-center">
                 <h2>We believe education is the ability to meet life’s situations</h2>
                 <div className="mt-5">
-              <a href="" className="hero-buttn">
+                    <Link href="/Contct">
+              <a  className="hero-buttn">
               Get in touch!
               </a>
+              </Link>
             </div>
             </div>
         </div>
