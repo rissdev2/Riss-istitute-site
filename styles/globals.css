@@ -420,7 +420,7 @@ a:hover {
 }
 
 .swiper-button-next {
-  background-image: url(../public/assets/img/right.svg) !important;
+  background-image: url(/right.svg) !important;
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
@@ -431,7 +431,7 @@ a:hover {
 }
 
 .swiper-button-prev {
-  background-image: url(../public/assets/img/left.svg) !important;
+  background-image: url(/left.svg) !important;
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: center;
@@ -447,7 +447,7 @@ a:hover {
 /****** Motivation Section Css Start  ******/
 @font-face {
   font-family: Rusty;
-  src: url(../public/assets/fonts/RustySign-AGZp.ttf);
+  src: url(/RustySign-AGZp.ttf);
 }
 .mtv-txt h2 {
   font-family: Rusty;
