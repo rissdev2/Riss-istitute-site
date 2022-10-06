@@ -125,18 +125,18 @@ a:hover {
   color: #000000;
 }
 .hero-buttn {
-  border: 1px solid black;
-  font-family: "Oswald";
-  color: black;
-  font-weight: 500;
-  font-size: 18px;
-  box-shadow: -10px 10px 0px #000000;
-  padding: 7px 32px;
+  border: 1px solid black !important;
+  font-family: "Oswald" !important;
+  color: black !important;
+  font-weight: 500 !important;
+  font-size: 18px !important;
+  box-shadow: -10px 10px 0px #000000 !important;
+  padding: 7px 32px !important;
 }
 .hero-buttn:hover {
-  border: 1px solid #00a8ff;
-  box-shadow: -10px 10px 0px #00a8ff;
-  color: #00a8ff;
+  border: 1px solid #00a8ff !important;
+  box-shadow: -10px 10px 0px #00a8ff !important;
+  color: #00a8ff !important;
 }
 
 /****** Hero Section Css End  ******/
@@ -382,6 +382,10 @@ a:hover {
   transform: scale(1.1);
   border: 2px solid #000000;
   box-shadow: -10px 10px 0px #000000;
+}
+.swiper .swiper-slide.swiper-slide-active:hover{
+  border: 2px solid #00a8ff;
+  box-shadow: -10px 10px 0px #00a8ff;
 }
 .swiper .swiper-nav-wrapper {
   bottom: 0;
