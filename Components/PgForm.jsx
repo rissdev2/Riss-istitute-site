@@ -15,6 +15,7 @@ export default function PgForm() {
       .then((res) => {
         console.log(res);
       }).catch(err=> console.log(err));
+      e.target.reset()
   }
   return (
     <>
