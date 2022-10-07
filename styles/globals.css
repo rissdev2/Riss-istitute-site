@@ -187,14 +187,14 @@ a:hover {
   color: #000000;
 }
 .crd{
-  background-image: url(/card.png);
+  background-image: url(/Card.png);
   background-size: cover;
   background-repeat: no-repeat;
   box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
 padding-bottom: 90px;
 }
 .crd:hover{
-  background-image: url(/card1.png);
+  background-image: url(/Card1.png);
 }
 .crd:hover img{
   filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg)
