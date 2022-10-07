@@ -20,7 +20,7 @@ export default function Courses() {
             <div className="crd">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="/assets/img/icon1.png" className="mt-5" alt="" />
+                <img src="assets/img/icon1.png" className="mt-5" alt="" />
               </div>
             </div>
              <div className="row">
@@ -74,7 +74,7 @@ export default function Courses() {
             <div className="crd">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="/assets/img/icon2.png" className="mt-5" alt="" />
+                <img src="assets/img/icon2.png" className="mt-5" alt="" />
               </div>
             </div>
              <div className="row">
@@ -127,7 +127,7 @@ export default function Courses() {
             <div className="crd">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="/assets/img/icon3.png" className="mt-5" alt="" />
+                <img src="assets/img/icon3.png" className="mt-5" alt="" />
               </div>
             </div>
              <div className="row">
@@ -182,7 +182,7 @@ export default function Courses() {
             <div className="crd">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="/assets/img/icon4.png" className="mt-5" alt="" />
+                <img src="assets/img/icon4.png" className="mt-5" alt="" />
               </div>
             </div>
              <div className="row">
@@ -236,7 +236,7 @@ export default function Courses() {
             <div className="crd">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="/assets/img/icon5.png" className="mt-5" alt="" />
+                <img src="assets/img/icon5.png" className="mt-5" alt="" />
               </div>
             </div>
              <div className="row">
@@ -289,7 +289,7 @@ export default function Courses() {
             <div className="crd">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="/assets/img/icon6.png" className="mt-5" alt="" />
+                <img src="assets/img/icon6.png" className="mt-5" alt="" />
               </div>
             </div>
              <div className="row">
@@ -344,7 +344,7 @@ export default function Courses() {
             <div className="crd">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="/assets/img/icon7.png" className="mt-5" alt="" />
+                <img src="assets/img/icon7.png" className="mt-5" alt="" />
               </div>
             </div>
              <div className="row">
@@ -398,7 +398,7 @@ export default function Courses() {
             <div className="crd">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="/assets/img/icon8.png" className="mt-5" alt="" />
+                <img src="assets/img/icon8.png" className="mt-5" alt="" />
               </div>
             </div>
              <div className="row">
@@ -451,7 +451,7 @@ export default function Courses() {
             <div className="crd">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="/assets/img/icon9.png" className="mt-5" alt="" />
+                <img src="assets/img/icon9.png" className="mt-5" alt="" />
               </div>
             </div>
              <div className="row">
