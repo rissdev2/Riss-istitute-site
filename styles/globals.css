@@ -190,7 +190,6 @@ a:hover {
   background-image: url(/Card.png);
   background-size: cover;
   background-repeat: no-repeat;
-  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
 padding-bottom: 90px;
 }
 .crd:hover{
