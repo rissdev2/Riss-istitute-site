@@ -6,9 +6,9 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-image: url(/BG.svg);
-  -webkit-background-img:url(/BG.svg);
-  -moz-background-img: url(/BG.svg);
+  background-image: url(/BG.jpg);
+  -webkit-background-img:url(/BG.jpg);
+  -moz-background-img: url(/BG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -186,6 +186,50 @@ a:hover {
   text-align: center;
   color: #000000;
 }
+.crd{
+  background-image: url(/card.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.25);
+padding-bottom: 90px;
+}
+.crd:hover{
+  background-image: url(/card1.png);
+}
+.crd:hover img{
+  filter: invert(54%) sepia(69%) saturate(4146%) hue-rotate(174deg)
+    brightness(103%) contrast(103%);
+}
+.crd h2{
+  font-family: 'Oswald';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 33px;
+color: #000000;
+}
+.crd:hover h2{
+  color: #00a8ff;
+}
+.crd p{
+  font-family: 'Hind Vadodara';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: #000000;
+margin-bottom: 10px;
+}
+.crd:hover p{
+  color: #00a8ff;
+}
+.crd hr{
+  width: 307px;
+height: 1px;
+color: rgba(0, 0, 0, 0.2);
+opacity: 1;
+margin: 0px 0px 20px 0px;
+}
 .picture2 {
   display: none;
 }
@@ -203,9 +247,6 @@ a:hover {
   font-size: 18px;
   box-shadow: -10px 10px 0px #000000;
   padding: 7px 32px;
-  position: relative;
-  bottom: 100px;
-  left: 30%;
 }
 .crs-buttn:hover {
   border: 1px solid #00a8ff;
