@@ -1113,7 +1113,8 @@ margin: 0px 0px 20px 0px;
 }
 /******** Media Qurries End  *******/
 .swal2-popup{
-  padding: 20px !important;
+  padding: 5px !important;
+  width: 55em !important;
 }
 .swal2-image{
   margin: 0px !important;
