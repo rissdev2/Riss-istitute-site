@@ -11,6 +11,7 @@ import Testemonial from "../Components/Testemonial";
 import Motivation from "../Components/Motivation.jsx";
 import Footer from "../Components/Footer.jsx";
 import Script from 'next/script'
+import Popup from "../Components/Popup.jsx";
 export default function Home() {
   return (
     <>
@@ -31,7 +32,7 @@ export default function Home() {
       <Script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" />
       <Script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" />
 
-
+      <Popup />
       <CntctHead />
       <Header />
       <Hero />
