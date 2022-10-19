@@ -97,7 +97,7 @@ export default function Footer() {
               </Link>
               <Link href="/Course9">
               <a  >
-               <p>Desktop app developmnet</p>
+               <p>Desktop app development</p>
               </a>
               </Link>
               <Link href="/Course8">
