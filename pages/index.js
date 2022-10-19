@@ -23,6 +23,14 @@ export default function Home() {
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous"
         />
+        <title>RISS-Institute</title>
+        <meta name="title" content="RISS-Institute" />
+<meta name="description" content="IT institute and Computer Education" />
+<meta name="keywords" content="earn money online, IT trainings , Internships & Jobs" />
+<meta name="robots" content="index, follow" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="language" content="English" />
+
         <script
           src="//code.tidio.co/qazxp2xozlaqvxetprfduy9zxjw5zl6o.js"
           async
