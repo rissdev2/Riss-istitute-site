@@ -25,11 +25,13 @@ export default function Home() {
         />
         <title>RISS-Institute</title>
         <meta name="title" content="RISS-Institute" />
-<meta name="description" content="IT institute and Computer Education" />
-<meta name="keywords" content="earn money online, IT trainings , Internships & Jobs" />
+<meta name="description" content="Offering IT Courses in Sheikhupura. Courses we offer Graphic designing, web development, CMS Development, freelancing, and much more" />
+<meta name="keywords" content="Best IT Institute in Sheikhupura, IT Institute, IT Courses, Computer Courses, RISS institute, Web development course, IT institute in Sheikhupura, Basic Computing Course, Virtual assistant Course, CMS (WordPress) Course, Graphic designing Course, Web Development Course, Freelancing Course, Digital Marketing  Course, Android app development Course, Desktop app development Course, IT Academy, Computer Academy" />
 <meta name="robots" content="index, follow" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="language" content="English" />
+<meta name="revisit-after" content="1 days" />
+<meta name="author" content="RISS Institute" />
 
         <script
           src="//code.tidio.co/qazxp2xozlaqvxetprfduy9zxjw5zl6o.js"
