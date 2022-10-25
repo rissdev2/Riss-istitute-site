@@ -43,27 +43,27 @@ export default function Footer() {
             </div>
             <div className="col-md-2 crs-links mt-3 mt-md-5">
                 <h3 className='sub-fot mb-4'>Trainings we offer</h3>
-                <Link href="/Course1">
+                <Link href="/BasicComputing">
               <a  >
              <p>Basic computing</p> 
               </a>
               </Link>
-              <Link href="/Course2">
+              <Link href="/VirtualAssistant">
               <a  >
           <p>Virtual assistant</p> 
               </a>
               </Link>
-              <Link href="/Course3">
+              <Link href="/CMS">
               <a  >
               <p>CMS</p>
               </a>
               </Link>
-              <Link href="/Course4">
+              <Link href="/GraphicDesigning">
               <a  >
              <p>Graphic designing</p>
               </a>
               </Link>
-              <Link href="/Course5">
+              <Link href="/WebDevelopment">
               <a  >
             <p>Web development</p>
               </a>
@@ -85,22 +85,22 @@ export default function Footer() {
             <div className="col-md-2 crs-links mt-0 mt-md-5">
             <br className="br-hide" />
             <br className="br-hide" />
-            <Link href="/Course6">
+            <Link href="/Freelancing">
               <a  >
          <p>Freelancing</p>  
               </a>
               </Link>
-              <Link href="/Course7">
+              <Link href="/DigitalMarketing">
               <a  >
              <p>Digital marketing</p>
               </a>
               </Link>
-              <Link href="/Course9">
+              <Link href="/DesktopAppDevelopment">
               <a  >
                <p>Desktop app development</p>
               </a>
               </Link>
-              <Link href="/Course8">
+              <Link href="/AndroidAppDevelopment">
               <a  >
               <p>Android app development </p>
               </a>
@@ -127,13 +127,13 @@ export default function Footer() {
         </li>
       
         <li>
-          <Link href="/Courses">
-            <a className={currentRoute === "/Courses" ? "active1" : "non-active1"}>Tranings</a>
+          <Link href="/Tranings">
+            <a className={currentRoute === "/Tranings" ? "active1" : "non-active1"}>Tranings</a>
           </Link>
         </li>
         <li>
-          <Link href="/FeeStruct">
-            <a className={currentRoute === "/FeeStruct" ? "active1" : "non-active1"}>Fee Structure</a>
+          <Link href="/FeeStructer">
+            <a className={currentRoute === "/FeeStructer" ? "active1" : "non-active1"}>Fee Structure</a>
           </Link>
         </li>
         <li>
@@ -143,7 +143,7 @@ export default function Footer() {
         </li>
         <li>
           <Link href="/Contct">
-            <a className={currentRoute === "/about" ? "active1" : "non-active1"}>Contact us</a>
+            <a className={currentRoute === "/Contct" ? "active1" : "non-active1"}>Contact us</a>
           </Link>
         </li>
                 </ul>

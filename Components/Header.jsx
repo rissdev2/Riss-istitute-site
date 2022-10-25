@@ -28,13 +28,13 @@ const currentRoute = router.pathname;
           </Link>
         </li>
         <li className="nav-item">
-          <Link href="/Courses">
-            <a className={currentRoute === "/Courses" ? "active" : "non-active"}>Tranings</a>
+          <Link href="/Tranings">
+            <a className={currentRoute === "/Tranings" ? "active" : "non-active"}>Tranings</a>
           </Link>
         </li>
         <li className="nav-item">
-          <Link href="/FeeStruct">
-            <a className={currentRoute === "/FeeStruct" ? "active" : "non-active"}>Fee Structure</a>
+          <Link href="/FeeStructer">
+            <a className={currentRoute === "/FeeStructer" ? "active" : "non-active"}>Fee Structure</a>
           </Link>
         </li>
         <li className="nav-item">

@@ -60,7 +60,7 @@ export default function Courses() {
               <div className="col-2"></div>
              </div>
                 <div className="col-md-12 mt-5 text-center">
-                <Link href="/Course1">
+                <Link href="/BasicComputing">
               <a  className="crs-buttn">
               More details
               </a>
@@ -114,7 +114,7 @@ export default function Courses() {
               <div className="col-2"></div>
              </div>
                 <div className="col-md-12 mt-5 text-center">
-                <Link href="/Course2">
+                <Link href="/VirtualAssistant">
               <a  className="crs-buttn">
               More details
               </a>
@@ -167,7 +167,7 @@ export default function Courses() {
               <div className="col-2"></div>
              </div>
                 <div className="col-md-12 mt-5 text-center">
-                <Link href="/Course3">
+                <Link href="/CMS">
               <a  className="crs-buttn">
               More details
               </a>
@@ -222,7 +222,7 @@ export default function Courses() {
               <div className="col-2"></div>
              </div>
                 <div className="col-md-12 mt-5 text-center">
-                <Link href="/Course4">
+                <Link href="/GraphicDesigning">
               <a  className="crs-buttn">
               More details
               </a>
@@ -276,7 +276,7 @@ export default function Courses() {
               <div className="col-2"></div>
              </div>
                 <div className="col-md-12 mt-5 text-center">
-                <Link href="/Course5">
+                <Link href="/WebDevelopment">
               <a  className="crs-buttn">
               More details
               </a>
@@ -329,7 +329,7 @@ export default function Courses() {
               <div className="col-2"></div>
              </div>
                 <div className="col-md-12 mt-5 text-center">
-                <Link href="/Course6">
+                <Link href="/Freelancing">
               <a  className="crs-buttn">
               More details
               </a>
@@ -384,7 +384,7 @@ export default function Courses() {
               <div className="col-2"></div>
              </div>
                 <div className="col-md-12 mt-5 text-center">
-                <Link href="/Course7">
+                <Link href="/DigitalMarketing">
               <a  className="crs-buttn">
               More details
               </a>
@@ -438,7 +438,7 @@ export default function Courses() {
               <div className="col-2"></div>
              </div>
                 <div className="col-md-12 mt-5 text-center">
-                <Link href="/Course8">
+                <Link href="/AndroidAppDevelopment">
               <a  className="crs-buttn">
               More details
               </a>
@@ -491,7 +491,7 @@ export default function Courses() {
               <div className="col-2"></div>
              </div>
                 <div className="col-md-12 mt-5 text-center">
-                <Link href="/Course9">
+                <Link href="/DesktopAppDevelopment">
               <a  className="crs-buttn">
               More details
               </a>
