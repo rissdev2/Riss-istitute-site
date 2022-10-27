@@ -13,31 +13,31 @@ export default function Footer() {
             <div className="col-md-1"></div>
             <div className="col-md-5 foter-txt mt-5">
               
-                <img src="assets/img/fotter-logo.svg" className='img-fluid mb-4' alt="" />
+                <img src="assets/img/fotter-logo.svg" className='img-fluid mb-4' alt="logo" />
             <div className=' fot-txt foter-icons mt-3'>
             <div className='d-flex gap-2'>
-                <img src="assets/img/f-mbl.svg" className='img-fluid' alt="" />
+                <img src="assets/img/f-mbl.svg" className='img-fluid' alt="mobile icon" />
                 <p>(056-3678338, +92 3471663003)</p>
                 </div>
                 <div className='d-flex gap-2'>
-                <img src="assets/img/f-mail.svg" className='img-fluid' alt="" />
+                <img src="assets/img/f-mail.svg" className='img-fluid' alt="email icon" />
                 <p>info@theriss.net</p>
                 </div>
             </div>
             <div className='fot-txt foter-icons mt-3'>
             <div className='d-flex gap-2'>
 
-                <img src="assets/img/location.svg" className='img-fluid' alt="" />
+                <img src="assets/img/location.svg" className='img-fluid' alt="location icon" />
                 <p>Farooq Town Street 1/2 , Ghang road, Sheikhupra</p>
 </div>
             </div>
             <h3 className='sub-fot mt-4 mb-4'>Social profiles</h3>
             <div className='foter-icons'>
             <ul className="d-flex mt-2">
-                <li><a href="https://www.facebook.com/rissgroup" target="blank"> <img src="assets/img/f-facebook.svg" className="img-fluid me-2" alt="" /></a></li>
-                <li><a href="https://www.instagram.com/rissgroup/?fbclid=IwAR1qVzwEavFoNm-5_pEgTSJMSRnFSMDSvzNHaNg-1DJsXISW71pyQd7g_os" target="blank"><img src="assets/img/f-instagram.svg" className="img-fluid me-2" alt="" /></a></li>
-                <li><a href="https://twitter.com/rissgroups?fbclid=IwAR2IiH49HjAvcCJ1OUR9-745-EG1-4w2ZT2vv_gEL2Zpe-M7Uz-0ZEs5u38" target="blank"><img src="assets/img/f-twitter.svg" className="img-fluid me-2" alt="" /></a></li>
-                <li><a href="https://www.linkedin.com/in/rissinstitute/" target="blank"><img src="assets/img/f-linkdin.svg" className="img-fluid " alt="" /></a></li>
+                <li><a href="https://www.facebook.com/rissgroup" target="blank"> <img src="assets/img/f-facebook.svg" className="img-fluid me-2" alt="facebook icon" /></a></li>
+                <li><a href="https://www.instagram.com/rissgroup/?fbclid=IwAR1qVzwEavFoNm-5_pEgTSJMSRnFSMDSvzNHaNg-1DJsXISW71pyQd7g_os" target="blank"><img src="assets/img/f-instagram.svg" className="img-fluid me-2" alt="instagram-icon" /></a></li>
+                <li><a href="https://twitter.com/rissgroups?fbclid=IwAR2IiH49HjAvcCJ1OUR9-745-EG1-4w2ZT2vv_gEL2Zpe-M7Uz-0ZEs5u38" target="blank"><img src="assets/img/f-twitter.svg" className="img-fluid me-2" alt="Twitter icon" /></a></li>
+                <li><a href="https://www.linkedin.com/in/rissinstitute/" target="blank"><img src="assets/img/f-linkdin.svg" className="img-fluid " alt="LinkedIn icon" /></a></li>
             </ul>
             </div>
             </div>

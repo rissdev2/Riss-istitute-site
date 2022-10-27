@@ -45,25 +45,25 @@ export default function Question() {
           <br className="br-hide" />
           <br className="br-hide" />
           <br className="br-hide" />
-          <img src="assets/img/1.svg" className="mt-5 mt-lg-0 img-fluid" alt="" />
+          <img src="assets/img/1.svg" className="mt-5 mt-lg-0 img-fluid" alt="points image" />
           <br className="br-hide" />
           <br className="br-hide" />
           <br className="br-hide" />
           <br className="br-hide" />
           <br className="br-hide" />
-          <img src="assets/img/2.svg" className="mt-5 mt-lg-0 img-fluid" alt="" />
+          <img src="assets/img/2.svg" className="mt-5 mt-lg-0 img-fluid" alt="points image" />
           <br className="br-hide" />
           <br className="br-hide" />
           <br className="br-hide" />
           <br className="br-hide" />
           <br className="br-hide" />
-          <img src="assets/img/3.svg" className="mt-5 mt-lg-0 img-fluid" alt="" />
+          <img src="assets/img/3.svg" className="mt-5 mt-lg-0 img-fluid" alt="points image" />
           <br className="br-hide" />
           <br className="br-hide" />
           <br className="br-hide" />
           <br className="br-hide" />
           <br className="br-hide" />
-          <img src="assets/img/4.svg" className="mt-5 mt-lg-0 img-fluid" alt="" />
+          <img src="assets/img/4.svg" className="mt-5 mt-lg-0 img-fluid" alt="points image" />
           </div>
         </div>
       </div>
