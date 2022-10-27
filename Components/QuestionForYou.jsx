@@ -28,7 +28,7 @@ export default function QuestionForYou() {
               <h2> Or working from anywhere in the world, which would you choose?</h2>
             </div>
             <div className="col-md-7">
-    <img src="assets/img/sl1.svg" className="mt-5 mt-lg-0 img-fluid" alt="" />
+    <img src="assets/img/sl1.svg" className="mt-5 mt-lg-0 img-fluid" alt="face svg" />
             </div>
         </div>
     </div>

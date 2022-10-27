@@ -28,7 +28,7 @@ export default function Hero() {
               <img
                 className="img-fluid"
                 src="assets/img/hero-p.png"
-                alt="..."
+                alt="boy image"
               />
              
             </div>
@@ -36,7 +36,7 @@ export default function Hero() {
               <img
                 className="img-fluid"
                 src="assets/img/hero.png"
-                alt=""
+                alt="boy image"
               />
             </div>
             

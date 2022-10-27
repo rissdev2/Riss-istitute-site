@@ -20,7 +20,7 @@ export default function Courses() {
             <div className="crd mt-5">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="assets/img/Icon1.png" className="mt-5 img-fluid" alt="" />
+                <img src="assets/img/Icon1.png" className="mt-5 img-fluid" alt="Computer image" />
               </div>
             </div>
              <div className="row">
@@ -74,7 +74,7 @@ export default function Courses() {
             <div className="crd mt-5">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="assets/img/Icon2.png" className="img-fluid mt-5" alt="" />
+                <img src="assets/img/Icon2.png" className="img-fluid mt-5" alt="Assistant img" />
               </div>
             </div>
              <div className="row">
@@ -127,7 +127,7 @@ export default function Courses() {
             <div className="crd mt-5">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="assets/img/Icon3.png" className="img-fluid mt-5" alt="" />
+                <img src="assets/img/Icon3.png" className="img-fluid mt-5" alt="CMS image" />
               </div>
             </div>
              <div className="row">
@@ -182,7 +182,7 @@ export default function Courses() {
             <div className="crd mt-5">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="assets/img/Icon4.png" className="img-fluid mt-5" alt="" />
+                <img src="assets/img/Icon4.png" className="img-fluid mt-5" alt="Graphics" />
               </div>
             </div>
              <div className="row">
@@ -236,7 +236,7 @@ export default function Courses() {
             <div className="crd mt-5">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="assets/img/Icon5.png" className="img-fluid mt-5" alt="" />
+                <img src="assets/img/Icon5.png" className="img-fluid mt-5" alt="WEB development image" />
               </div>
             </div>
              <div className="row">
@@ -289,7 +289,7 @@ export default function Courses() {
             <div className="crd mt-5">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="assets/img/Icon6.png" className=" img-fluid mt-5" alt="" />
+                <img src="assets/img/Icon6.png" className=" img-fluid mt-5" alt="Freelancing image" />
               </div>
             </div>
              <div className="row">
@@ -344,7 +344,7 @@ export default function Courses() {
             <div className="crd mt-5">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="assets/img/Icon7.png" className="img-fluid mt-5" alt="" />
+                <img src="assets/img/Icon7.png" className="img-fluid mt-5" alt="Digital Marketing" />
               </div>
             </div>
              <div className="row">
@@ -398,7 +398,7 @@ export default function Courses() {
             <div className=" crd mt-5">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="assets/img/Icon8.png" className="img-fluid mt-5" alt="" />
+                <img src="assets/img/Icon8.png" className="img-fluid mt-5" alt="Android app development" />
               </div>
             </div>
              <div className="row">
@@ -451,7 +451,7 @@ export default function Courses() {
             <div className="crd mt-5">
             <div className="row">
               <div className="col-md-12 text-center">
-                <img src="assets/img/Icon9.png" className="img-fluid mt-5" alt="" />
+                <img src="assets/img/Icon9.png" className="img-fluid mt-5" alt="Desktop app development" />
               </div>
             </div>
              <div className="row">

@@ -15,7 +15,7 @@ export default function Goals() {
         </div>
         <div className="row goal-sec">
             <div className="col-md-5">
-                <img src="assets/img/goal.svg" className='img-fluid' alt="" />
+                <img src="assets/img/goal.svg" className='img-fluid' alt="Person icon" />
             </div>
             <div className="col-md-1"></div>
             <div className="col-md-6">

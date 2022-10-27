@@ -14,7 +14,7 @@ const currentRoute = router.pathname;
     <>
  <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container">
-  <a className="navbar-brand"><img src="assets/img/Logo.png" alt="" /></a>
+  <a className="navbar-brand"><img src="assets/img/Logo.png" alt="Logo" /></a>
       <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
         <span className="navbar-toggler-icon"></span>
       </button>

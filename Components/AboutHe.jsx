@@ -9,8 +9,8 @@ export default function AboutHe() {
             <h1>Let’ts get to know each other</h1>
           </div>
           <div className="col-md-6">
-            <img src="assets/img/about-h.svg" className="d-none d-md-block img-fluid" alt="" />
-            <img src="assets/img/about.svg" className="d-block d-md-none img-fluid" alt="" />
+            <img src="assets/img/about-h.svg" className="d-none d-md-block img-fluid" alt="arrow-svg" />
+            <img src="assets/img/about.svg" className="d-block d-md-none img-fluid" alt="arrow-svg" />
           </div>
         </div>
         <div className="row abt-ht">

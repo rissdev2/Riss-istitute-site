@@ -23,7 +23,7 @@ export default function Home() {
           integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
           crossorigin="anonymous"
         />
-        <title>RISS-Institute</title>
+        <title>RISS-Institute of Computer Education And online money making skills</title>
         <meta name="title" content="RISS-Institute" />
 <meta name="description" content="Offering IT Courses in Sheikhupura. Courses we offer Graphic designing, web development, CMS Development, freelancing, and much more" />
 <meta name="keywords" content="riss institute, freelancing course fee , freelancing course in sheikhupura, best IT Institute in Seikhupura, IT Institute, IT Courses, Computer Courses, RISS institute, Web development course, IT institute in Sheikhupura, Basic Computing Course, Virtual assistant Course, CMS (WordPress) Course, Graphic designing Course, Web Development Course, Freelancing Course, Digital Marketing  Course, Android app development Course, Desktop app development Course, IT Academy, Computer Academy" />
