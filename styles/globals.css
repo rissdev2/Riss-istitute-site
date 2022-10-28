@@ -142,7 +142,7 @@ a:hover {
 /****** Hero Section Css End  ******/
 /****** Question Section Css Start  ******/
 
-.qut-txt h1 {
+.qut-txt h2 {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 700;
@@ -168,7 +168,7 @@ a:hover {
 }
 /****** Question Section Css End  ******/
 /****** Course Section Css Start  ******/
-.crs-txt h1 {
+.crs-txt h3 {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 700;
@@ -275,7 +275,7 @@ margin: 0px 0px 20px 0px;
   color: #000000;
   opacity: 0.4;
 }
-.fot-txt h1 {
+.fot-txt h4 {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 700;
@@ -288,7 +288,7 @@ margin: 0px 0px 20px 0px;
 .for-sec {
   align-items: center;
 }
-.for-sec h1 {
+.for-sec h3 {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 300;
@@ -307,7 +307,7 @@ margin: 0px 0px 20px 0px;
 
 /****** Question For You Section Css End  ******/
 /****** Working Section Css Start  ******/
-.work-txt h1 {
+.work-txt h2 {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 400;
@@ -319,7 +319,7 @@ margin: 0px 0px 20px 0px;
   padding: 30px 20px;
   border: 1px solid #000000;
 }
-.crd-txt h1 {
+.crd-txt h2 {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 500;
@@ -353,7 +353,7 @@ margin: 0px 0px 20px 0px;
 }
 /****** Working Section Css End  ******/
 /****** Testemonial Section Css Start  ******/
-.test-txt h1 {
+.test-txt h2 {
   font-family: "Oswald";
   font-style: normal;
   font-weight: 700;

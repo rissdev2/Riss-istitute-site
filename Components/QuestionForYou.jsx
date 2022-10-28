@@ -17,14 +17,14 @@ export default function QuestionForYou() {
             <div className="col-md-12 text-start">
                 <h3>We have a <span className='main-color'>Question for you</span></h3>
                 <h2>We have a <span className='main-color'>Question for you</span></h2>
-                <h1>We have a <span className='main-color'>Question for you</span></h1>
+                <h4>We have a <span className='main-color'>Question for you</span></h4>
             </div>
         </div>
         <br className="br-hide" />
         <br className="br-hide" />
         <div className="row mt-0 mt-lg-5 for-sec">
             <div className="col-md-5">
-              <h1>If you had to choose between working in an office for 8 hours a day</h1>
+              <h3>If you had to choose between working in an office for 8 hours a day</h3>
               <h2> Or working from anywhere in the world, which would you choose?</h2>
             </div>
             <div className="col-md-7">
