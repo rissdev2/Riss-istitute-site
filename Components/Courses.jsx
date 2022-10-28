@@ -8,9 +8,9 @@ export default function Courses() {
       <div className="container mt-5">
         <div className="row mt-5">
           <div className="col-md-12 crs-txt">
-            <h1>
+            <h3>
               The trainings <span className="main-color">we offer</span>
-            </h1>
+            </h3>
             <h2 className="mt-3 mb-5">Our tailored courses are designed in a way so can easily understand and acquire digital money-making skills.</h2>
             <br className="br-hide" />
           </div>

@@ -18,9 +18,9 @@ export default function App() {
       <div className="container">
         <div className="row">
           <div className="col-md-12 text-center test-txt">
-            <h1>
+            <h2>
               Check out our <span className="main-color"> students views</span>
-            </h1>
+            </h2>
           </div>
         </div>
         <Swiper

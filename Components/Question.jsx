@@ -12,10 +12,10 @@ export default function Question() {
               <br className="br-hide" />
               <br className="br-hide" />
               
-              <h1>
+              <h2>
                 Don t worry we ve{" "}
                 <span className="main-color">got your back </span>{" "}
-              </h1>
+              </h2>
               <h3>Get started with 4 simple steps to unroll expert course</h3>
               <p>
                 We will make your online earning journey smooth with our
