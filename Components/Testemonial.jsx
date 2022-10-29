@@ -51,7 +51,7 @@ export default function App() {
         <div className="content-wrapper">
 					<div className="content">
 						<div className="swiper-avatar"><img src="assets/img/hamad.svg" className="img-fluid" alt="student-image" /></div>
-						<p>RISS is my second home. I have built great relationships with my classmates, teachers, and staff. I like RISS because it offers very practical courses for us.
+						<p>RISS institute is my second home. I have built great relationships with my classmates, teachers, and staff. I like RISS because it offers very practical courses for us.
 
 
 </p>
@@ -64,7 +64,7 @@ export default function App() {
           <div className="content-wrapper">
 					<div className="content">
 						<div className="swiper-avatar"><img src="assets/img/abdul.svg" className="img-fluid" alt="student-image" /></div>
-						<p>I am excited to study at RISS. I really like the instructors and advisors. They always help me when I have questions. I also really like my program and teachers.
+						<p>I am excited to study at RISS institute. I really like the instructors and advisors. They always help me when I have questions. I also really like my program and teachers.
 
 </p>
 						<p className="cite">- Abdul Rehman</p>
@@ -76,7 +76,7 @@ export default function App() {
           <div className="content-wrapper">
 					<div className="content">
 						<div className="swiper-avatar"><img src="assets/img/nomi.svg" className="img-fluid" alt="student-image" /></div>
-						<p>I have had a very good experience at RISS. The campus environment and class schedule are very convenient. The hands on teaching style provides good learning opportunities
+						<p>I have had a very good experience at RISS institute. The campus environment and class schedule are very convenient. The hands on teaching style provides good learning opportunities
 </p>
 						<p className="cite">- Noman Rajput</p>
 					</div>
@@ -98,7 +98,7 @@ export default function App() {
           <div className="content-wrapper">
 					<div className="content">
 						<div className="swiper-avatar"><img src="assets/img/jasihr.svg" className="img-fluid" alt="student-image" /></div>
-						<p>I have had a very good experience at RISS. The campus environment and class schedule are very convenient. The hands on teaching style provides good learning opportunities
+						<p>I have had a very good experience at RISS institute. The campus environment and class schedule are very convenient. The hands on teaching style provides good learning opportunities
 </p>
 						<p className="cite">- Jashir</p>
 					</div>

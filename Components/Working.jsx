@@ -38,7 +38,7 @@ export default function Working() {
             </div>
             <div className="col-md-4 text-center crd-txt">
                 <h2>Internships & Jobs</h2>
-                <p>If you are enrolled and complete any training RISS will offer internships for you  to be confident enough to work in the industry as an expert. Our internships program is also for already skilled people.</p>
+                <p>If you are enrolled and complete any training RISS institute will offer internships for you  to be confident enough to work in the industry as an expert. Our internships program is also for already skilled people.</p>
               
                 <ul className="d-flex justify-content-center">
                 <li><img src="assets/img/f-mail.svg" className="img-fluid me-2" alt="Email icon" /></li>
